@@ -1,0 +1,23 @@
+{
+  "name": "MyProxy",
+  "version": "0.0.1",
+  "description": "Module for proxy",
+  "main": "Proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srilesnar/MyProxy.git"
+  },
+  "dependencies": {
+    "cache-module":"~0.0.1",
+    "nconf":"~0.8.2"
+  },
+  "author": "Srikumar Swaminathan <srilesnar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srilesnar/MyProxy/issues"
+  },
+  "homepage": "https://github.com/srilesnar/MyProxy"
+}
