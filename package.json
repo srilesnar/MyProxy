@@ -1,6 +1,6 @@
 {
-  "name": "MyProxy",
-  "version": "0.0.1",
+  "name": "proxs",
+  "version": "0.0.4",
   "description": "Module for proxy",
   "main": "Proxy.js",
   "scripts": {
@@ -11,13 +11,14 @@
     "url": "https://github.com/srilesnar/MyProxy.git"
   },
   "dependencies": {
-    "cache-module":"~0.0.1",
-    "nconf":"~0.8.2"
+    "cache-module": "~0.0.1",
+    "nconf": "~0.8.2"
   },
   "author": "Srikumar Swaminathan <srilesnar@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/srilesnar/MyProxy/issues"
   },
-  "homepage": "https://github.com/srilesnar/MyProxy"
+  "homepage": "https://github.com/srilesnar/MyProxy",
+  "devDependencies": {}
 }
