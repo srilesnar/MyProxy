@@ -3,7 +3,6 @@
  */
 
 
-var config = require('./configHelper');
 var cache = require('cache-module');
 
 function forwardRequest(request, expiry, bytesSize, elemSize, callback){
