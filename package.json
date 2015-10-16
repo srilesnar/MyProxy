@@ -11,8 +11,7 @@
     "url": "https://github.com/srilesnar/MyProxy.git"
   },
   "dependencies": {
-    "cache-module": "~0.0.1",
-    "nconf": "~0.8.2"
+    "cache-module": "~0.0.1"
   },
   "author": "Srikumar Swaminathan <srilesnar@gmail.com>",
   "license": "ISC",

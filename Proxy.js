@@ -6,14 +6,9 @@
 var config = require('./configHelper');
 var cache = require('cache-module');
 
-var cacheDuration = "cache_config:cacheDuration";
-var cacheSizeBytes = "cache_config:cacheSizeBytes";
-var cacheSizeElements = "cache_config:cacheSizeElements";
-
-function forwardRequest(request, callback){
+function forwardRequest(request, expiry, bytesSize, elemSize, callback){
     if(request.method === "GET"){
-        cache.cacheIns.initCache(config.getValue(cacheDuration), config.getValue(cacheSizeBytes), config.getValue(cacheSizeElements));
-        cache.cacheIns.handleRequest(request, callback);
+        cache.cacheIns.getInstance(expiry, bytesSize, elemSize).handleRequest(request, callback);
     } else {
         return "POST not supported";
     }

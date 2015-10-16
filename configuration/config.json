@@ -1,7 +1,0 @@
-{
-  "cache_config":{
-    "cacheDuration": 300000,
-    "cacheSizeBytes": 2048,
-    "cacheSizeElements": 50
-  }
-}
